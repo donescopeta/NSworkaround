@@ -1,0 +1,16 @@
+set a 234
+get a b c d
+
+if a > b
+
+set c 345
+
+else
+
+set b 100
+
+fi
+
+while a > b
+  echo 'adf' b 'c'
+done

@@ -1,0 +1,29 @@
+begin "Mateusz Sokołowski" "Schemat1"
+get ocena1 ocena2 ocean3
+set ws  2 * ocena1 + ocena2 + ocena3
+set p   1
+
+if p = 1 and ws < 13.2
+    echo 'dostateczny'
+    set p 0
+fi
+
+if p = 1 and ws > 13.2 and ws <= 14.8
+    echo 'dostateczny+'
+    set p 0
+fi
+
+if p = 1 and ws > 14.8 and ws <= 16.40
+    echo 'dobry'
+    set p 0
+fi
+
+if p = 1 and ws > 16.4 and ws <= 17.60
+    echo 'dobry plus'
+    set p 0
+fi
+
+if p = 1 and ws > 17.60
+    echo 'bardzo dobry'
+    set p 0
+fi

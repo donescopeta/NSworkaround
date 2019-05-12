@@ -1,0 +1,23 @@
+begin "Mateusz Sokołowski" "Dwie funkcje"
+echo 'Prosze Podac Liczbe'
+
+get a b c
+x:=0
+
+if b > a and b > c
+    x:=c
+    c:=b
+    b:=x
+fi
+
+if a > c and a > b
+    x:=c
+    c:=a
+    a:=x
+fi
+
+if a > b
+    x:=a
+    a:=b
+    b:=a
+fi
