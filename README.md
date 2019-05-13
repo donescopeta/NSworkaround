@@ -1,7 +1,7 @@
 # NSworkaround
 NSbuilder NS block scheme workaround.
 
-This is a workaround for nsbuilder program. Thanks to this script you can write a code that can be converted into ns builder file. 
+This is a workaround for nsbuilder. Thanks to this script you can write a code that can be converted into ns builder file. 
 For example, create a file max.nss :
 ```
 begin "Autor" "Dwie funkcje"
